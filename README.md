@@ -1,4 +1,4 @@
-# Quasar - Intro Theory
+# Quasar - Intron Theory
 
 *NOTE: This is an old project dating back to 2006. It is no longer active.*
 
