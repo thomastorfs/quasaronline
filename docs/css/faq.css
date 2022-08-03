@@ -1,0 +1,13 @@
+﻿
+/*######################################## 
+		quasaronline.org faq CSS stylesheet
+######################################## */
+
+#grey 							{ float:left; position:relative; top:-12px; left:10px; }
+
+#rightcol						{ float: right; width:549px; }
+#faqs li							{ padding:1px 0; }
+a.question						{ display:block; width:549px; background:url(../img/bg_faq_top.gif) no-repeat 0 0; text-decoration:none; }
+a.question .bg_btm				{ display:block; width:519px; padding:10px 15px; background:url(../img/bg_faq_btm.gif) no-repeat 0 100%; }
+
+a.question:hover				{ background-position:-549px 0; }

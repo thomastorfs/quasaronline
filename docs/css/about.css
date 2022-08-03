@@ -1,0 +1,62 @@
+﻿
+/*######################################## 
+		quasaronline.org about CSS stylesheet
+######################################## */
+
+
+/* MAIN STYLING
+---------------------------------------------- */
+h2 strong								{ display:none; }
+
+.row								{ position:relative; padding:0 0 40px; }
+.colleft							{ float:left; margin:0 40px 0 1px; width:460px; padding:0 5px 0 10px; } 
+.colright							{ float:left; width:460px; padding:0 5px 0 10px; }
+.row .colheadbg h2					{ position:absolute; top:10px; left:-3px; }
+
+.row .colheadbg						{ background:url(../img/bg_colhead_abt.png) no-repeat 0 0; }
+.row .colhead						{ position:relative; height:50px; padding:15px 0 5px 0; }
+
+.lst_logo li							{ padding:10px 0; clear:left; background:url(../img/bg_lst_hr460.gif) no-repeat 50% 100%; }
+.lst_logo .logo						{ float:left; width:90px; padding-right:10px; }
+.lst_logo .logotext					{ float:left; width:360px; font-size:0.9em; line-height:1.5em; }
+
+
+/* INTRODUCTION
+---------------------------------------------- */
+#intro								{ position:relative; width:985px; padding-left:10px; }
+#intro h2 							{ position:relative; left:-3px; width:159px; height:51px; background:url(../img/txt_abt_intro.png) no-repeat 0 0; }
+
+#nssct								{ position:absolute; top:53px; right:-88px; }
+#introtext							{ position:relative; }
+
+
+/* MANAGEMENT
+---------------------------------------------- */
+#mngmnt h2 							{ position:relative; width:174px; height:50px; left:8px; background:url(../img/txt_abt_manage.png) no-repeat 0 0; }
+
+
+/* DEPARTMENTS
+---------------------------------------------- */
+#prog .colleft h2					{ width:180px; height:50px; background:url(../img/txt_abt_prog.png) no-repeat 0 0; }
+#prog .colleft h2.depticon			{ position:absolute; left:330px; top:-50px; display:block; width:124px; height:128px; background:url(../img/icn_dept_prog.png) no-repeat 0 0; }
+
+#prog .colright h2					{ width:176px; height:51px; background:url(../img/txt_abt_gdesign.png) no-repeat 0 0; }
+#prog .colright h2.depticon			{ position:absolute; left:340px; top:-28px; display:block; width:98px; height:101px; background:url(../img/icn_dept_engi.png) no-repeat 0 0; }
+
+#ctext .colleft h2					{ width:171px; height:66px; background:url(../img/txt_abt_ctext.png) no-repeat 0 0; }
+#ctext .colleft h2.depticon			{ position:absolute; left:350px; top:-25px; display:block; width:73px; height:92px; background:url(../img/icn_dept_ctext.png) no-repeat 0 0; }
+
+#ctext .colright h2					{ width:109px; height:64px; background:url(../img/txt_abt_art.png) no-repeat 0 0; }
+#ctext .colright h2.depticon			{ position:absolute; left:335px; top:-25px; display:block; width:82px; height:89px; background:url(../img/icn_dept_art.png) no-repeat 0 0; }
+
+#sound .colleft h2					{ width:109px; height:64px; background:url(../img/txt_abt_sound.png) no-repeat 0 0; }
+#sound .colleft h2.depticon			{ position:absolute; left:300px; top:-15px; display:block; width:132px; height:70px; background:url(../img/icn_dept_sound.png) no-repeat 0 0; }
+
+#sound .colright h2					{ width:235px; height:61px; top:17px; background:url(../img/txt_abt_intrigued.png) no-repeat 0 0; }
+#sound .colright a.depticon			{ position:absolute; left:300px; top:-30px; display:block; width:132px; height:133px; background:url(../img/icn_applynow.png) no-repeat 0 0; }
+#sound .colright a.depticon:hover 	{ cursor:pointer; }
+#sound .colright a.depticon strong		{ display:none; }
+#sound .positions					{ position:relative; top:10px; left:0; }
+
+
+/* #introduction h2 		{ width:; height:; background:url() no-repeat 0 0; } */

@@ -1,0 +1,38 @@
+﻿
+/*######################################## 
+		quasaronline.org join CSS stylesheet
+######################################## */
+
+
+/* JOB FIELDS
+---------------------------------------------- */
+.row								{ position:relative; padding:15px 0 14px 1px; }
+.row .fld482							{ float:left; }
+.row .fld_btm						{ padding-bottom:50px; }
+.row .jobleft						{ padding-right:29px; }
+.row .colhead						{ position:relative; height:60px; }
+.row .colhead h2						{ position:absolute; top:0; left:-3px; }
+.row a.applybtn						{ position:absolute; bottom:20px; right:30px; display:block; width:66px; height:22px; background:url(../img/btn_join_apply.gif) no-repeat 0 0; }
+.row a.applybtn:hover				{ background-position:0 -22px; }
+.row a.applybtn strong					{ display:none; }
+.row .jobdescr						{ position:relative; }
+
+#job_engiarchi h2					{ width:330px; height:66px; background:url(../img/txt_join_engiarchi.png) no-repeat 0 0; }
+#job_gdesigner h2					{ width:203px; height:66px; background:url(../img/txt_join_gdesigner.png) no-repeat 0 0; }
+#job_cwriter h2						{ width:203px; height:66px; background:url(../img/txt_join_cwriter.png) no-repeat 0 0; }
+#job_progengi h2						{ width:344px; height:66px; background:url(../img/txt_join_progengine.png) no-repeat 0 0; }
+#job_proglogic h2					{ width:326px; height:66px; background:url(../img/txt_join_proglogic.png) no-repeat 0 0; }
+#job_leadproganalyst h2				{ width:344px; height:64px; background:url(../img/txt_join_leadproganalyst.png) no-repeat 0 0; }
+#job_cartist h2						{ width:190px; height:66px; background:url(../img/txt_join_cartist.png) no-repeat 0 0; }
+#job_3dartist h2						{ width:123px; height:66px; background:url(../img/txt_join_3dartist.png) no-repeat 0 0; }
+#job_progxna h2						{ width:232px; height:66px; background:url(../img/txt_join_progxna.png) no-repeat 0 0; }
+
+#job_engiarchi h2.depticon,
+#job_gdesigner h2.depticon			{ position:absolute; left:365px; top:-45px; display:block; width:98px; height:101px; background:url(../img/icn_dept_engi.png) no-repeat 0 0; }
+#job_cwriter h2.depticon				{ position:absolute; left:365px; top:-35px; display:block; width:73px; height:92px; background:url(../img/icn_dept_ctext.png) no-repeat 0 0; }
+#job_leadproganalyst h2.depticon,
+#job_progxna h2.depticon				{ position:absolute; left:345px; top:-65px; display:block; width:124px; height:128px; background:url(../img/icn_dept_progxna.png) no-repeat 0 0; }
+#job_proglogic h2.depticon,
+#job_progengi h2.depticon			{ position:absolute; left:345px; top:-65px; display:block; width:124px; height:128px; background:url(../img/icn_dept_prog.png) no-repeat 0 0; }
+#job_cartist h2.depticon,
+#job_3dartist h2.depticon			{ position:absolute; left:365px; top:-45px; display:block; width:124px; height:128px; background:url(../img/icn_dept_art.png) no-repeat 0 0; }

@@ -1,0 +1,45 @@
+﻿
+/*######################################## 
+		quasaronline.org applyform CSS stylesheet
+######################################## */
+
+
+/* MAIN STYLING
+---------------------------------------------- */
+html body							{ text-align:center; padding:10px 0 0 0; }
+#wrap							{ width:860px; height: auto; margin:0 auto; text-align:left; }
+.row							{ padding:0; }
+.colleft						{ width:405px; float:left; padding-right:20px; background:url(../img/bg_lst_vr300.gif) no-repeat 100% 20px; }
+.colright						{ width:405px; float:left; padding-left:20px; }
+
+.inputfld						{ width:400px; }
+textarea							{ height:50px; }
+h2								{ margin:20px auto 0 auto; }
+p.iagree						{ padding-top:20px; width: 330px; margin:0 auto; text-align: center; }
+#submitappl.submit				{ float:left; display:block; width:66px; height:22px; background:url(../img/btn_join_submit.gif) no-repeat 0 0; }
+#submitappl.submit:hover		{ background-position:0 -22px; }
+#submitappl.submit strong 			{ display:none; }
+a#closeappl						{ float:left; display:block; margin:0 10px 0 0; width:66px; height:22px; background:url(../img/btn_join_cancel.gif) no-repeat 0 0; }
+a#closeappl:hover				{ background-position:0 -22px; }
+a#closeappl strong				{ display:none; }
+
+p.submitrow						{ margin:20px auto 0 auto; width:154px; }
+
+#joinlogin						{ text-align:center; padding-top:20px; width:500px; margin:0 auto; }
+#joinlogin .inputfld				{ position:static; width:200px; float:left; margin-right:5px; }
+#login_uname					{ position:static; width:200px; float:left; margin-right:5px; }
+#login_pwd						{ position:static; width:200px; float:left; margin-right:5px; }
+#submitlogin					{ display:block; float:left; width:66px; height:22px; background:url(../img/btn_join_login.gif) no-repeat 0 0; }
+#submitlogin:hover				{ background-position:0 -22px; }
+#submitlogin strong 				{ display:none; }
+#forgotpsswdwrap				{ float:none; clear:both; text-align:left; }
+#forgotpsswd					{ color:#3d6486; font-size:0.9em; }
+
+#submitreminder					{ float:left; display:block; width:66px; height:22px; background:url(../img/btn_join_submit.gif) no-repeat 0 0; margin-right:5px;}
+#submitreminder:hover			{ background-position:0 -22px; }
+#submitreminder strong 			{ display:none; }
+#cancelreminder					{ float:left; display:block; margin:0 10px 0 0; width:66px; height:22px; background:url(../img/btn_join_cancel.gif) no-repeat 0 0; }
+#cancelreminder:hover			{ background-position:0 -22px; }
+#cancelreminder strong			{ display:none; }
+
+#joinlogin #txtwebemail			{ width:330px; }

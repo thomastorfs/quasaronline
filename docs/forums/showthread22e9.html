@@ -1,0 +1,334 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en"><meta http-equiv="content-type" content="text/html;charset=ISO-8859-1"><head><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"><meta name="generator" content="vBulletin 3.8.1"><meta name="keywords" content=" Interesting flashgame, game development forum, xna, xcom, strategy games, quasar intron theory, quasar, pc games, open source, games, game development, creativity, concepting, game programming, alien, 3d games"><meta name="description" content=" Interesting flashgame Off-Topic"><style type="text/css" id="vbulletin_css">/**
+* vBulletin 3.8.1 CSS
+* Style: 'Quasar Forum Styling'; Style ID: 2
+*/
+body
+{
+	background: #000000;
+	color: #ffffff;
+	font: 10pt verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+	margin: 5px 10px 10px 10px;
+	padding: 0px;
+}
+a:link, body_alink
+{
+	color: #22229C;
+}
+a:visited, body_avisited
+{
+	color: #22229C;
+}
+a:hover, a:active, body_ahover
+{
+	color: #FF4400;
+}
+.page
+{
+	background: #FFFFFF;
+	color: #000000;
+}
+td, th, p, li
+{
+	font: 10pt verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+}
+.tborder
+{
+	background: #D1D1E1;
+	color: #000000;
+	border: 1px solid #0B198C;
+}
+.tcat
+{
+	background: #869BBF url(images/gradients/gradient_tcat.gif) repeat-x top left;
+	color: #FFFFFF;
+	font: bold 10pt verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+}
+.tcat a:link, .tcat_alink
+{
+	color: #ffffff;
+	text-decoration: none;
+}
+.tcat a:visited, .tcat_avisited
+{
+	color: #ffffff;
+	text-decoration: none;
+}
+.tcat a:hover, .tcat a:active, .tcat_ahover
+{
+	color: #FFFF66;
+	text-decoration: underline;
+}
+.thead
+{
+	background: #5C7099 url(images/gradients/gradient_thead.gif) repeat-x top left;
+	color: #FFFFFF;
+	font: bold 11px tahoma, verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+}
+.thead a:link, .thead_alink
+{
+	color: #FFFFFF;
+}
+.thead a:visited, .thead_avisited
+{
+	color: #FFFFFF;
+}
+.thead a:hover, .thead a:active, .thead_ahover
+{
+	color: #FFFF00;
+}
+.tfoot
+{
+	background: #3E5C92;
+	color: #E0E0F6;
+}
+.tfoot a:link, .tfoot_alink
+{
+	color: #E0E0F6;
+}
+.tfoot a:visited, .tfoot_avisited
+{
+	color: #E0E0F6;
+}
+.tfoot a:hover, .tfoot a:active, .tfoot_ahover
+{
+	color: #FFFF66;
+}
+.alt1, .alt1Active
+{
+	background: #F5F5FF;
+	color: #000000;
+}
+.alt2, .alt2Active
+{
+	background: #E1E4F2;
+	color: #000000;
+}
+.inlinemod
+{
+	background: #FFFFCC;
+	color: #000000;
+}
+.wysiwyg
+{
+	background: #F5F5FF;
+	color: #000000;
+	font: 10pt verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+	margin: 5px 10px 10px 10px;
+	padding: 0px;
+}
+.wysiwyg a:link, .wysiwyg_alink
+{
+	color: #22229C;
+}
+.wysiwyg a:visited, .wysiwyg_avisited
+{
+	color: #22229C;
+}
+.wysiwyg a:hover, .wysiwyg a:active, .wysiwyg_ahover
+{
+	color: #FF4400;
+}
+textarea, .bginput
+{
+	font: 10pt verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+}
+.bginput option, .bginput optgroup
+{
+	font-size: 10pt;
+	font-family: verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+}
+.button
+{
+	font: 11px verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+}
+select
+{
+	font: 11px verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+}
+option, optgroup
+{
+	font-size: 11px;
+	font-family: verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+}
+.smallfont
+{
+	font: 11px verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+}
+.time
+{
+	color: #666686;
+}
+.navbar
+{
+	font: 11px verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+}
+.highlight
+{
+	color: #FF0000;
+	font-weight: bold;
+}
+.fjsel
+{
+	background: #3E5C92;
+	color: #E0E0F6;
+}
+.fjdpth0
+{
+	background: #F7F7F7;
+	color: #000000;
+}
+.panel
+{
+	background: #E4E7F5 url(images/gradients/gradient_panel.gif) repeat-x top left;
+	color: #000000;
+	padding: 10px;
+	border: 2px outset;
+}
+.panelsurround
+{
+	background: #D1D4E0 url(images/gradients/gradient_panelsurround.gif) repeat-x top left;
+	color: #000000;
+}
+legend
+{
+	color: #22229C;
+	font: 11px tahoma, verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+}
+.vbmenu_control
+{
+	background: #738FBF;
+	color: #FFFFFF;
+	font: bold 11px tahoma, verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+	padding: 3px 6px 3px 6px;
+	white-space: nowrap;
+}
+.vbmenu_control a:link, .vbmenu_control_alink
+{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.vbmenu_control a:visited, .vbmenu_control_avisited
+{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.vbmenu_control a:hover, .vbmenu_control a:active, .vbmenu_control_ahover
+{
+	color: #FFFFFF;
+	text-decoration: underline;
+}
+.vbmenu_popup
+{
+	background: #FFFFFF;
+	color: #000000;
+	border: 1px solid #0B198C;
+}
+.vbmenu_option
+{
+	background: #BBC7CE;
+	color: #000000;
+	font: 11px verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+	white-space: nowrap;
+	cursor: pointer;
+}
+.vbmenu_option a:link, .vbmenu_option_alink
+{
+	color: #22229C;
+	text-decoration: none;
+}
+.vbmenu_option a:visited, .vbmenu_option_avisited
+{
+	color: #22229C;
+	text-decoration: none;
+}
+.vbmenu_option a:hover, .vbmenu_option a:active, .vbmenu_option_ahover
+{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.vbmenu_hilite
+{
+	background: #8A949E;
+	color: #FFFFFF;
+	font: 11px verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+	white-space: nowrap;
+	cursor: pointer;
+}
+.vbmenu_hilite a:link, .vbmenu_hilite_alink
+{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.vbmenu_hilite a:visited, .vbmenu_hilite_avisited
+{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.vbmenu_hilite a:hover, .vbmenu_hilite a:active, .vbmenu_hilite_ahover
+{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+/* ***** styling for 'big' usernames on postbit etc. ***** */
+.bigusername { font-size: 14pt; }
+
+/* ***** small padding on 'thead' elements ***** */
+td.thead, th.thead, div.thead { padding: 4px; border:none;}
+
+/* ***** basic styles for multi-page nav elements */
+.pagenav a { text-decoration: none; }
+.pagenav td { padding: 2px 4px 2px 4px; }
+
+/* ***** de-emphasized text */
+.shade, a.shade:link, a.shade:visited { color: #777777; text-decoration: none; }
+a.shade:active, a.shade:hover { color: #FF4400; text-decoration: underline; }
+.tcat .shade, .thead .shade, .tfoot .shade { color: #DDDDDD; }
+
+/* ***** define margin and font-size for elements inside panels ***** */
+.fieldset { margin-bottom: 6px; }
+.fieldset, .fieldset td, .fieldset p, .fieldset li { font-size: 11px; }
+body .homestatustable {
+	width:100%;
+}
+body .homestatustable td {
+	border-right:solid 1px #E0E0F6;
+}
+body .homestatustable td.nrb {
+	border-right:none;
+}
+body .hst_titles td {
+	text-align:center;
+}
+body .hst_descs td {
+	font-size:8pt;
+	padding:0 5px;
+}
+body .hst_descs td ul {
+	padding-left:15px;
+}
+body .hst_descs td li {
+	font-size:8pt;
+}
+body .hst_descs td .hst_done {
+	color:#16bd00;
+}
+body .hst_descs td .hst_progress {
+	color:#f00b00;
+}</style><link rel="stylesheet" type="text/css" href="clientscript/vbulletin_importantfc03.css?v=381"><script type="text/javascript" src="clientscript/yui/yahoo-dom-event/yahoo-dom-eventfc03.js?v=381"></script><script type="text/javascript" src="clientscript/yui/connection/connection-minfc03.js?v=381"></script><script type="text/javascript"><!--
+var SESSIONURL = "";
+var SECURITYTOKEN = "guest";
+var IMGDIR_MISC = "images/misc";
+var vb_disable_ajax = parseInt("0", 10);
+// --></script><script type="text/javascript" src="clientscript/vbulletin_globalfc03.js?v=381"></script><link rel="alternate" type="application/rss+xml" title="Quasar - Intron Theory Forums RSS Feed" href="external9476.php?type=RSS2"><link rel="alternate" type="application/rss+xml" title="Quasar - Intron Theory Forums - Off-Topic - RSS Feed" href="externalb510.php?type=RSS2&amp;forumids=7"><style media="screen" type="text/css">@import url("../css/forums.css");</style><link type="text/css" media="screen, projection" href="/highslide/highslide.css" rel="stylesheet"><!--[if lt IE 7]>
+<link type="text/css" media="screen, projection" href="/css/ie6-forum.css" rel="stylesheet"></link>
+<![endif]--><script type="text/javascript" src="/highslide/highslide-full.packed.js"></script><script type="text/javascript" src="../js/jquery-1.2.6.min.js"></script><script type="text/javascript" src="../js/default.js"></script><div id="mypopup" name="mypopup" style="z-index:1000; position: absolute; background: none; border: none"></div><script type="text/javascript" src="vbstatus/ajax_wrapper.js"></script><script type="text/javascript" src="vbstatus/headerjavascript.js"></script><title>Bravo - Quasar - Intron Theory Forums</title><script type="text/javascript" src="clientscript/vbulletin_post_loaderfc03.js?v=381"></script><style type="text/css" id="vbulletin_showthread_css"><!--
+	
+	#links div { white-space: nowrap; }
+	#links img { vertical-align: middle; }
+	--></style></head><body onload=""><div id="wrap"><div id="head"><h1 id="logo"><a href="../home.html"><strong>Quasar Intron Theory</strong></a></h1><div id="mainmenu"><div id="mm_search" class="mm_side"><form action="http://172.17.8.100/searchresults.html" name="form_search" method="post" class="mm_bg"><fieldset><input id="search_txt" type="text" value="Search..."> <button type="submit"><strong>Search</strong></button></fieldset></form></div><ul id="menubtns"><li id="mm_home"><a href="../home.html" class="mm_side" id="mms_left"><span class="mm_bg"><span class="mm_light"><span class="mm_name"><span class="mm_special"><strong>Home</strong></span></span></span></span></a></li><li id="mm_about"><a href="../about.html" class="mm_bg"><span class="mm_light"><span class="mm_name"><span class="mm_special"><strong>About</strong></span></span></span></a></li><li id="mm_forum"><a href="index.html" class="mm_bg"><span class="mm_light"><span class="mm_name"><span class="mm_special"><strong>Forum</strong></span></span></span></a></li><li id="mm_faq"><a href="../faq.html" class="mm_bg"><span class="mm_light"><span class="mm_name"><span class="mm_special"><strong>FAQ</strong></span></span></span></a></li><li id="mm_join"><a href="../join.html" class="mm_bg"><span class="mm_light"><span class="mm_name"><span class="mm_special"><strong>Join</strong></span></span></span></a></li></ul></div><form id="login" action="http://172.17.8.100/forums/login.php?do=login" method="post" onsubmit="md5hash(vb_login_password, vb_login_md5password, vb_login_md5password_utf, 0)"><script type="text/javascript" src="clientscript/vbulletin_md5fc03.js?v=381"></script><input type="text" name="vb_login_username" id="login_uname" value="username" onfocus="if (this.value == '') this.value = '';"> <input type="password" id="login_pwd" value="password" name="vb_login_password"> <button type="submit"><strong>Login</strong></button> <input type="hidden" name="s" value=""> <input type="hidden" name="securitytoken" value="guest"> <input type="hidden" name="do" value="login"> <input type="hidden" name="vb_login_md5password"> <input type="hidden" name="vb_login_md5password_utf"><div id="logintext"><a href="login6750.html?do=lostpw" id="forgotpsswd">Forget Your Password?</a></div></form></div></div><div id="forumwrap"><div id="shell"><div align="center"><div class="page" style="width:100%; text-align:left"><div style="padding:0px 0px 0px 0px" align="left"><table class="tborder" cellpadding="5" cellspacing="1" border="0" width="100%" align="center"><tr><td class="alt1" width="100%"><table cellpadding="0" cellspacing="0" border="0"><tr valign="bottom"><td><a href="#" onclick="history.back(1); return false;"><img src="images/misc/navbits_start.gif" alt="" border="0"></a></td><td>&nbsp;</td><td width="100%"><span class="navbar"><a href="index-2.html" accesskey="1">Quasar - Intron Theory Forums</a></span> <span class="navbar">&gt; <a href="forumdisplay4d6b.html?f=3">General</a></span> <span class="navbar">&gt; <a href="forumdisplayd42b.html?f=7">Off-Topic</a></span></td></tr><tr><td class="navbar" style="font-size:10pt; padding-top:1px" colspan="3"><a href="showthread22e9.html?t=194&amp;goto=nextnewest"><img class="inlineimg" src="images/misc/navbits_finallink_ltr.gif" alt="" border="0"></a><strong>Bravo</strong></td></tr></table></td><td class="alt2" nowrap="nowrap" style="padding:0px"><form action="http://172.17.8.100/forums/login.php?do=login" method="post" onsubmit="md5hash(vb_login_password, vb_login_md5password, vb_login_md5password_utf, 0)"><script type="text/javascript" src="clientscript/vbulletin_md5fc03.js?v=381"></script><table cellpadding="0" cellspacing="3" border="0"><tr><td class="smallfont" style="white-space: nowrap"><label for="navbar_username"></label></td><td><input type="text" class="bginput" style="font-size: 11px" name="vb_login_username" id="navbar_username" size="10" accesskey="u" tabindex="101" value="" onfocus="if (this.value == '') this.value = '';"></td><td class="smallfont" nowrap="nowrap"><label for="cb_cookieuser_navbar"><input type="checkbox" name="cookieuser" value="1" tabindex="103" id="cb_cookieuser_navbar" accesskey="c"></label></td></tr><tr><td class="smallfont"><label for="navbar_password"></label></td><td><input type="password" class="bginput" style="font-size: 11px" name="vb_login_password" id="navbar_password" size="10" tabindex="102"></td><td><input type="submit" class="button" value="" tabindex="104" title="" accesskey="s"></td></tr></table><input type="hidden" name="s" value=""> <input type="hidden" name="securitytoken" value="guest"> <input type="hidden" name="do" value="login"> <input type="hidden" name="vb_login_md5password"> <input type="hidden" name="vb_login_md5password_utf"></form></td></tr></table><div class="tborder" style="padding:0 1px 1px 1px; border-top-width:0px"><table cellpadding="0" cellspacing="0" border="0" width="100%" align="center"><tr align="center"><td class="vbmenu_control"><a href="register.html" rel="nofollow"></a></td><td class="vbmenu_control"><a rel="help" href="faq.html" accesskey="5"></a></td><td class="vbmenu_control"><a href="calendar.html"></a></td><td class="vbmenu_control"><a href="search.html" accesskey="4"></a></td><td class="vbmenu_control"><a href="search5c81.html?do=getdaily" accesskey="2"></a></td><td class="vbmenu_control"><a href="index-2.html?do=markread" rel="nofollow"></a></td></tr></table></div><br><a name="poststop" id="poststop"></a><table cellpadding="0" cellspacing="0" border="0" width="100%" style="margin-bottom:3px"><tr valign="bottom"><td class="smallfont"><a href="newreply5f7b.html?do=newreply&amp;noquote=1&amp;p=1384" rel="nofollow"><img src="images/buttons/reply.gif" alt="" border="0"></a></td></tr></table><table class="tborder" cellpadding="5" cellspacing="1" border="0" width="100%" align="center" style="border-bottom-width:0px"><tr><td class="tcat" width="100%"><div class="smallfont">&nbsp;</div></td><td class="vbmenu_control" id="threadtools" nowrap="nowrap"><a href="#goto_threadtools">Thread Tools</a></td><td class="vbmenu_control" id="displaymodes" nowrap="nowrap"><a href="#goto_displaymodes">Display Modes</a></td></tr></table></div></div></div><div id="posts"><div align="center"><div class="page" style="width:100%; text-align:left"><div style="padding:0px 0px 0px 0px" align="left"><div id="edit1384" style="padding:0px 0px 5px 0px"><table id="post1384" class="tborder" cellpadding="5" cellspacing="0" border="0" width="100%" align="center"><tr><td class="thead" style="font-weight:normal; border: 1px solid #D1D1E1; border-right: 0px"><a name="post1384"><img class="inlineimg" src="images/statusicon/post_old.gif" alt="" border="0"></a>22nd April 2007</td><td class="thead" style="font-weight:normal; border: 1px solid #D1D1E1; border-left: 0px" align="right">&nbsp; #<a href="showposted43.html?p=1384&amp;postcount=1" target="new" rel="nofollow" id="postcount1384" name="1"><strong>1</strong></a></td></tr><tr valign="top"><td class="alt2" width="175" style="border: 1px solid #D1D1E1; border-top: 0px; border-bottom: 0px"><div id="postmenu_1384"><a class="bigusername" href="member924c.html?u=44">loodwig</a><script type="text/javascript">vbmenu_register("postmenu_1384", true);</script></div><div class="smallfont">Junior Member</div><div class="smallfont">&nbsp;<br><div>: Apr 2007</div><div>: 1</div><div></div></div></td><td class="alt1" id="td_post_1384" style="border-right: 1px solid #D1D1E1"><div class="smallfont"><img class="inlineimg" src="images/icons/icon1.gif" alt="" border="0"> <strong>Bravo</strong></div><hr size="1" style="color:#D1D1E1; background-color:#D1D1E1"><div id="post_message_1384">I&#39;m the lead of Prescion, a similar free game project. I was looking at your start, and the concept... and I&#39;m quite pleased with what I see. I always liked the XCOM series when I was younger, and I&#39;ve been using a similar isometric engine (non-kyra home grown) in my game. I&#39;m eager to see what you intend to do with the music, as that&#39;s always one of my driving factors in a game (and what I spend the most time on in my game).<br><br>Again, Bravo, and keep up the good work. I&#39;d like to see more as it comes around!</div></td></tr><tr><td class="alt2" style="border: 1px solid #D1D1E1; border-top: 0px"><img class="inlineimg" src="images/statusicon/user_offline.gif" alt="" border="0"> &nbsp;</td><td class="alt1" align="right" style="border: 1px solid #D1D1E1; border-left: 0px; border-top: 0px"><a href="newreply7f81.html?do=newreply&amp;p=1384" rel="nofollow"><img src="images/buttons/quote.gif" alt="Reply With Quote" border="0"></a></td></tr></table><div class="vbmenu_popup" id="postmenu_1384_menu" style="display:none"><table cellpadding="4" cellspacing="1" border="0"><tr><td class="thead">loodwig</td></tr><tr><td class="vbmenu_option"><a href="member924c.html?u=44">View Public Profile</a></td></tr><tr><td class="vbmenu_option"><a href="search00ae.html?do=finduser&amp;u=44" rel="nofollow">Find More Posts by loodwig</a></td></tr></table></div></div></div></div></div><div align="center"><div class="page" style="width:100%; text-align:left"><div style="padding:0px 0px 0px 0px" align="left"><div id="edit1387" style="padding:0px 0px 5px 0px"><table id="post1387" class="tborder" cellpadding="5" cellspacing="0" border="0" width="100%" align="center"><tr><td class="thead" style="font-weight:normal; border: 1px solid #D1D1E1; border-right: 0px"><a name="post1387"><img class="inlineimg" src="images/statusicon/post_old.gif" alt="" border="0"></a>22nd April 2007</td><td class="thead" style="font-weight:normal; border: 1px solid #D1D1E1; border-left: 0px" align="right">&nbsp; #<a href="showpost6195.html?p=1387&amp;postcount=2" target="new" rel="nofollow" id="postcount1387" name="2"><strong>2</strong></a></td></tr><tr valign="top"><td class="alt2" width="175" style="border: 1px solid #D1D1E1; border-top: 0px; border-bottom: 0px"><div id="postmenu_1387"><a class="bigusername" href="member1912.html?u=3"><strong style="color:#f00">Vintage</strong><img class="inlineimg" border="0" src="images/misc/level/award_community.gif" title="Community Award"><img class="inlineimg" border="0" src="images/misc/level/award_posting.gif" title="Posting Award"><img class="inlineimg" border="0" src="images/misc/level/award_activity.gif" title="Activity Award"></a><script type="text/javascript">vbmenu_register("postmenu_1387", true);</script></div><div class="smallfont">Administrator</div><div class="smallfont">&nbsp;<br><a href="member1912.html?u=3"><img src="Vintage_avatarbfb8.jpg?u=3&amp;dateline=1226137051" width="65" height="65" alt="Vintage's Avatar" border="0"></a></div><div class="smallfont">&nbsp;<br><div>: Nov 2005</div><div>: 1,684</div><div></div></div></td><td class="alt1" id="td_post_1387" style="border-right: 1px solid #D1D1E1"><div class="smallfont"><img class="inlineimg" src="images/icons/icon1.gif" alt="" border="0"> <strong>Re: Bravo</strong></div><hr size="1" style="color:#D1D1E1; background-color:#D1D1E1"><div id="post_message_1387"><br>Hi loodwig,<br><br>Thank you for the kind words. The creation of the main theme was started some time ago, but has been delayed due to production with a higher priority. The general idea is to create a hybrid track with orchestral and electronic elements. It could be that a preview will be published within a reasonable amount of time.<br><br>Keep up the good work at Prescion!<br><br><br><br>greets,<br><br>Thomas<br><br></div><div>__________________<br><img src="/media/sigs/sig_Vintage_new.jpg" border="0" alt=""></div></td></tr><tr><td class="alt2" style="border: 1px solid #D1D1E1; border-top: 0px"><img class="inlineimg" src="images/statusicon/user_offline.gif" alt="" border="0"> &nbsp;</td><td class="alt1" align="right" style="border: 1px solid #D1D1E1; border-left: 0px; border-top: 0px"><a href="newreply3ba4.html?do=newreply&amp;p=1387" rel="nofollow"><img src="images/buttons/quote.gif" alt="Reply With Quote" border="0"></a></td></tr></table><div class="vbmenu_popup" id="postmenu_1387_menu" style="display:none"><table cellpadding="4" cellspacing="1" border="0"><tr><td class="thead">Vintage</td></tr><tr><td class="vbmenu_option"><a href="member1912.html?u=3">View Public Profile</a></td></tr><tr><td class="vbmenu_option"><a href="search6d55.html?do=finduser&amp;u=3" rel="nofollow">Find More Posts by Vintage</a></td></tr></table></div></div></div></div></div><div id="lastpost"></div></div><div align="center"><div class="page" style="width:100%; text-align:left"><div style="padding:0px 0px 0px 0px" align="left"><table cellpadding="0" cellspacing="0" border="0" width="100%" style="margin-top:-2px"><tr valign="top"><td class="smallfont"><a href="newreplyc057.html?do=newreply&amp;noquote=1&amp;p=1387" rel="nofollow"><img src="images/buttons/reply.gif" alt="" border="0"></a></td></tr></table><br><div class="smallfont" align="center"><strong>&laquo;</strong> <a href="showthreadc55d.html?t=253&amp;goto=nextoldest" rel="nofollow">Previous Thread</a> | <a href="showthread7ce4.html?t=253&amp;goto=nextnewest" rel="nofollow">Next Thread</a> <strong>&raquo;</strong></div><table class="tborder" cellpadding="5" cellspacing="1" border="0" width="100%" align="center" style="border-top-width:0px"><tr><td class="thead" colspan="2">Thread Tools<a name="goto_threadtools"></a></td></tr><tr valign="top"><td class="alt1" colspan="2"><div class="smallfont"><div><img class="inlineimg" src="images/buttons/printer.gif" alt="Show Printable Version" vspace="1"> <a href="printthreadefd4.html?t=253" rel="nofollow">Show Printable Version</a></div><div><img class="inlineimg" src="images/buttons/sendtofriend.gif" alt="Email this Page" vspace="1"> <a href="sendmessage729f.html?do=sendtofriend&amp;t=253" rel="nofollow">Email this Page</a></div></div></td></tr><tr><td class="thead" colspan="2">Display Modes<a name="goto_displaymodes"></a></td></tr><tr valign="top"><td class="alt2" colspan="2"><div class="smallfont"><div><img class="inlineimg" src="images/buttons/mode_linear.gif" alt="Linear Mode" vspace="1"> <strong>Linear Mode</strong></div><div><img class="inlineimg" src="images/buttons/mode_hybrid.gif" alt="Hybrid Mode" vspace="1"> <a href="showthreadfedc.html?mode=hybrid&amp;t=253">Switch to Hybrid Mode</a></div><div><img class="inlineimg" src="images/buttons/mode_threaded.gif" alt="Threaded Mode" vspace="1"> <a href="showthread46dd.html?p=1384&amp;mode=threaded#post1384">Switch to Threaded Mode</a></div></div></td></tr></table><br><table cellpadding="0" cellspacing="0" border="0" width="100%" align="center"><tr valign="bottom"><td width="100%" valign="top"><table class="tborder" cellpadding="5" cellspacing="1" border="0" width="210"><thead><tr><td class="thead"><a style="float:right" href="#top" onclick="return toggle_collapse('forumrules')"><img id="collapseimg_forumrules" src="images/buttons/collapse_thead.gif" alt="" border="0"></a></td></tr></thead><tbody id="collapseobj_forumrules" style=""><tr><td class="alt1" nowrap="nowrap"><div class="smallfont"><div></div><div></div><div></div><div></div><hr><div></div><div></div><div></div><div></div><hr><div></div></div></td></tr></tbody></table></td><td class="smallfont" align="right"><table cellpadding="0" cellspacing="0" border="0"><tr><td><div class="smallfont" style="text-align:left; white-space:nowrap"><form action="http://172.17.8.100/forums/forumdisplay.php" method="get"><input type="hidden" name="s" value=""> <input type="hidden" name="daysprune" value=""> <strong></strong><br><select name="f" onchange="this.form.submit();"><optgroup label=""><option value="cp"></option><option value="pm"></option><option value="subs"></option><option value="wol"></option><option value="search"></option><option value="home"></option></optgroup><optgroup label=""><option value="3" class="fjdpth0">General</option><option value="35" class="fjdpth1">&nbsp; &nbsp; News</option><option value="44" class="fjdpth1">&nbsp; &nbsp; Ask The Quasar Team A Question</option><option value="6" class="fjdpth1">&nbsp; &nbsp; Suggestions</option><option value="60" class="fjdpth1">&nbsp; &nbsp; The Truth Is Out There</option><option value="59" class="fjdpth1">&nbsp; &nbsp; Similar Games</option><option value="39" class="fjdpth2">&nbsp; &nbsp; &nbsp; &nbsp; XCOM UFO Enemy Unknown</option><option value="40" class="fjdpth2">&nbsp; &nbsp; &nbsp; &nbsp; XCOM Terror From The Deep</option><option value="41" class="fjdpth2">&nbsp; &nbsp; &nbsp; &nbsp; XCOM Apocalypse</option><option value="42" class="fjdpth2">&nbsp; &nbsp; &nbsp; &nbsp; UFO Aftermath</option><option value="43" class="fjdpth2">&nbsp; &nbsp; &nbsp; &nbsp; UFO Aftershock</option><option value="45" class="fjdpth2">&nbsp; &nbsp; &nbsp; &nbsp; UFO Afterlight</option><option value="7" class="fjsel" selected="selected">&nbsp; &nbsp; Off-Topic</option></optgroup></select><input type="submit" class="button" value=""></form></div></td></tr></table></td></tr></table><br><br><div class="smallfont" align="center"></div><br></div></div></div><form action="http://172.17.8.100/forums/index.php" method="get"><table cellpadding="5" cellspacing="0" border="0" width="100%" class="page" align="center"><tr><td class="tfoot" align="right" width="100%"><div class="smallfont"><strong><a href="sendmessage.html" rel="nofollow" accesskey="9"></a> - <a href="http://quasaronline.org/">Quasar - Intron Theory</a> - <a href="archive/index.html"></a> - <a href="#top" onclick="self.scrollTo(0, 0); return false;"></a></strong></div></td></tr></table><br><div align="center"><div class="smallfont" align="center"></div><div class="smallfont" align="center"><img src="cron1792.gif?rand=1479328899" alt="" width="1" height="1" border="0"></div></div></form><div id="quasarfooter"><ul id="footer_smap"><li id="fsm_home"><a href="../home.html">Home</a></li><li id="fsm_about"><a href="../about.html">About</a></li><li id="fsm_forum"><a href="index.html">Forum</a></li><li id="fsm_faq"><a href="../faq.html">FAQ</a></li><li class="nbg" id="fsm_join"><a href="../join.html">Join</a></li></ul><ul id="footer_lnks"><li><a target="_blank" href="http://creativecommons.org/licenses/by-nc-nd/3.0/">Quasar Intron Theory License</a></li><li><a href="../terms_of_use.html" class="legalpopup">Terms And Conditions</a></li><li><a href="../privacy_policy.html" class="legalpopup">Privacy Policy</a></li><li class="nbg"><a href="mailto:quasaronline@gmail.com">Contact Us</a></li></ul></div><script type="text/javascript"><!--
+	// Main vBulletin Javascript Initialization
+	vBulletin_init();
+//--></script><script type="text/javascript">var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+	document.write(unescape("%3Cscript src=\'" + gaJsHost + "google-analytics.com/ga.js\' type=\'text/javascript\'%3E%3C/script%3E"));</script><script type="text/javascript">var pageTracker = _gat._getTracker("UA-274114-4");
+	pageTracker._initData();
+	pageTracker._trackPageview();</script><div style="display:none"></div></div></div></body></html>

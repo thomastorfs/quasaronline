@@ -1,0 +1,60 @@
+
+/*######################################## 
+		quasaronline.org homepage CSS stylesheet
+######################################## */
+
+
+
+/* BACKGROUNDS
+---------------------------------------------- */
+
+#mm_about .mm_special 			{ background:url(../img/img_grey_hp.jpg) no-repeat -89px -94px; }
+#mm_about a:hover .mm_special 	{ background-position:-89px 0; }
+#mm_forum .mm_special 			{ background:url(../img/img_grey_hp.jpg) no-repeat -221px -94px; }
+#mm_forum a:hover .mm_special 	{ background-position:-221px 0; }
+
+#shell 							{ width:100%; padding-top:87px; background:url(../img/bg_fp_fadedgreys.jpg) no-repeat 185px 215px; }
+#maingrey  						{ width:100%; padding-top:53px; background:url(../img/img_grey_hp.jpg) no-repeat 216px -181px; }
+
+
+/* COLUMNS
+---------------------------------------------- */
+#lcol 							{ float:left; padding:10px 0 0 10px; }
+#rcol 							{ float:right; position:relative; right:-4px; padding-top:10px;}
+
+
+
+/* APPLYBOX
+---------------------------------------------- */
+.applynow a 						{ position:absolute; top:-47px; right:8px; display:block; width:132px; height:133px; background:url(../img/img_applynow.gif) no-repeat 0 0; }
+.applynow strong 					{ display:none; }
+
+.positions						{ position:absolute; top:90px; right:15px; text-align:right; }
+.positions li						{ clear:both; }
+.positions a						{ float:right; clear:right; padding:0 15px 0 0; background-position:100% -44px; }
+.positions a:hover				{ background-position:100% 7px; }
+
+.applylist a, .applylist span		{ display:block; }
+
+.apply_reg						{ width:152px; height:43px; background:url(../img/txt_fp_register.gif) no-repeat 0 0; }
+.apply_join						{ width:153px; height:43px; background:url(../img/txt_fp_join.gif) no-repeat 0 0; }
+.apply_create					{ width:226px; height:43px; background:url(../img/txt_fp_create.gif) no-repeat 0 0; }
+
+
+
+/* NEWSBOX
+---------------------------------------------- */
+h2.newstitle					{ position:relative; width:90px; height:40px; background:url(../img/title_fp_news.gif) no-repeat 19px 7px;}
+h2.newstitle strong				{ display:none; }
+a.newsrss 						{ position:absolute; top:14px; left:0; display:block; width:16px; height:16px; background:url(../img/icn_rss_fp.gif) no-repeat 0 0; }
+
+ul.newslist						{ padding-bottom:15px; }
+ul.newslist a						{ display:block; padding:7px 0; background:url(../img/bg_fp_news_horrule.gif) no-repeat 0 100%; text-decoration:none; color:#90b7cf; }
+ul.newslist a:hover				{ color:#c3dceb; background-position:-350px 100%; }
+ul.newslist .newstitle			{ color:#fff; }
+ul.newslist .newsdate			{ float:right; font-size:0.9em; }
+ul.newslist .newstext			{ clear:both; font-size:0.9em; line-height:1.6em; }
+
+
+
+
